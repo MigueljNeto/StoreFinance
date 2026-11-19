@@ -2,8 +2,6 @@
 
 Sistema web para pequenas lojas organizarem **tarefas do dia a dia** e o **controle financeiro** (receitas e despesas) em um só lugar.
 
-Projeto acadêmico desenvolvido em PHP puro, seguindo a arquitetura **MVC** e aplicando padrões de projeto.
-
 ## Funcionalidades
 
 - **Autenticação**: cadastro, login e logout, com senhas criptografadas, proteção CSRF e bloqueio temporário após várias tentativas de login erradas.
@@ -85,7 +83,7 @@ php database/migrate.php rollback
 php -S localhost:8000 -t public public/index.php
 ```
 
-Acesse **http://localhost:8000** e crie sua conta em *Cadastre-se*.
+Acesse **http://localhost:8000** e crie sua conta em *Criar Conta*.
 
 ## Estrutura de pastas
 
