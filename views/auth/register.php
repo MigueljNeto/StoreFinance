@@ -81,3 +81,10 @@
                 Já possui uma conta?
                 <a href="/login">Entrar</a>
             </p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

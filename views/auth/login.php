@@ -42,4 +42,9 @@
                 <a href="/register">Criar conta</a>
             </p>
 
+        </section>
 
+    </main>
+
+</body>
+</html>

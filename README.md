@@ -118,7 +118,7 @@ O StoreFinance foi construído em PHP puro, sem frameworks, seguindo o padrão *
 ### Telas e estilo
 
 - As páginas internas usam o layout `views/layouts/header.php`, com barra superior e navegação.
-- As telas de login e cadastro compartilham `views/layouts/auth-header.php` e `auth-footer.php`. Cada tela define apenas título, subtítulo e o próprio formulário, sem repetir HTML. O nome do sistema aparece pequeno no topo do card e o título da tela é o `h1`, deixando claro onde o usuário está.
+- As telas de login e cadastro compartilham `views/layouts/auth-header.php`, que monta o cabeçalho da página, o card, o nome do sistema e os alertas. Cada tela define apenas título, subtítulo e o próprio formulário, sem repetir HTML. O nome do sistema aparece pequeno no topo do card e o título da tela é o `h1`, deixando claro onde o usuário está.
 - O CSS usa **variáveis** (`:root`) com a paleta da marca. Os botões seguem um único sistema de classes (`.btn`, `.btn-primary`, `.btn-block`), então o botão laranja das telas de entrada é o mesmo do restante do sistema. As classes das telas de entrada usam o prefixo `auth-`, e o estilo global de `button` define só a fonte e o cursor, sem afetar outros botões.
 
 ### Considerações finais
