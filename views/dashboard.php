@@ -190,5 +190,3 @@
             <p class="mini-calendar-hint muted">Clique num dia para ver as tarefas com aquele prazo.</p>
         </aside>
         </div>
-
-<?php require __DIR__ . '/layouts/footer.php'; ?>

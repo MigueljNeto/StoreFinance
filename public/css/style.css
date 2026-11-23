@@ -29,48 +29,56 @@ body {
     font-family: Arial, sans-serif;
     background: var(--background);
     min-height: 100vh;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+body.auth {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.login-container {
+.auth-container {
     width: 100%;
     max-width: 420px;
     padding: 20px;
 }
 
-.login-card {
+.auth-card {
     background: var(--white);
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
 
-.login-header {
-    text-align: center;
-    margin-bottom: 35px;
-}
-
-.login-header h1 {
+.auth-brand {
+    font-size: 16px;
+    font-weight: bold;
     color: var(--graphite);
-    font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
 }
 
-.login-header p,
-.login-content > p {
+.auth-brand span {
+    color: var(--brand);
+}
+
+.auth-heading {
+    margin-bottom: 28px;
+}
+
+.auth-heading h1 {
+    color: var(--graphite);
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.auth-heading p {
     color: var(--text-secondary);
     font-size: 14px;
-}
-
-.login-content h2 {
-    color: var(--graphite);
-    margin-bottom: 8px;
-}
-
-.login-content > p {
-    margin-bottom: 25px;
 }
 
 .form-group {
@@ -97,35 +105,20 @@ body {
     border-color: var(--brand);
 }
 
-button {
-    width: 100%;
-    padding: 14px;
-    background: var(--graphite);
-    color: var(--white);
-    border: none;
-    border-radius: 7px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: var(--black);
-}
-
-.register-link {
+.auth-switch {
     text-align: center;
     margin-top: 25px;
     font-size: 14px;
     color: var(--text-secondary);
 }
 
-.register-link a {
+.auth-switch a {
     color: var(--brand);
     text-decoration: none;
     font-weight: bold;
 }
 
-.register-link a:hover {
+.auth-switch a:hover {
     color: var(--brand-dark);
 }
 
@@ -157,7 +150,6 @@ button:hover {
 
 
 body.app {
-    display: block;
     color: var(--black);
 }
 
@@ -293,6 +285,13 @@ body.app {
 
 .btn-danger:hover {
     background: var(--danger-soft);
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
 }
 
 .btn-sm {
