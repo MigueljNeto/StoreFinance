@@ -13,6 +13,24 @@ Projeto acadêmico desenvolvido em PHP puro.
 - **Tarefas financeiras**: uma tarefa pode ter uma receita ou despesa prevista (ex.: *pagar imposto de R$ 1.000*). Ao concluí-la, o lançamento é registrado automaticamente. Ao reabri-la, o lançamento é desfeito.
 - **Lançamentos**: CRUD de receitas e despesas por categoria, com resumo de entradas, saídas e saldo da loja.
 
+## Telas
+
+### Dashboard
+
+<img src="docs/screenshots/dashboard.png" alt="Dashboard com resumo das tarefas, saldo da loja e calendário" width="100%">
+
+### Autenticação
+
+| Login | Cadastro |
+|:---:|:---:|
+| <img src="docs/screenshots/login.png" alt="Tela de login" width="100%"> | <img src="docs/screenshots/cadastro.png" alt="Tela de cadastro" width="100%"> |
+
+### Tarefas
+
+| Nova tarefa | Editar tarefa |
+|:---:|:---:|
+| <img src="docs/screenshots/nova-tarefa.png" alt="Formulário de nova tarefa" width="100%"> | <img src="docs/screenshots/editar-tarefa.png" alt="Formulário de edição de tarefa com lançamento financeiro" width="100%"> |
+
 ## Como rodar localmente
 
 ### 1. Pré-requisitos
