@@ -19,7 +19,7 @@ Projeto acadêmico desenvolvido em PHP puro.
 
 <img src="docs/screenshots/dashboard.png" alt="Dashboard com resumo das tarefas, saldo da loja e calendário" width="100%">
 
-### Autenticação
+### Login
 
 | Login | Cadastro |
 |:---:|:---:|
